@@ -1,4 +1,4 @@
-# Implementation of deep learning framework -- Unet, using Keras
+# Implementation of deep learning framework -- Unet, using Tensorflow (instead of pure Keras)
 
 The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
 
@@ -67,7 +67,7 @@ Use the trained model to do segmentation on test images, the result is statisfac
 ![img/0label.png](img/0label.png)
 
 
-## About Keras
+<!-- ## About Keras
 
 Keras is a minimalist, highly modular neural networks library, written in Python and capable of running on top of either TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
 
@@ -79,4 +79,4 @@ supports arbitrary connectivity schemes (including multi-input and multi-output 
 runs seamlessly on CPU and GPU.
 Read the documentation [Keras.io](http://keras.io/)
 
-Keras is compatible with: Python 2.7-3.5.
+Keras is compatible with: Python 2.7-3.5. -->
